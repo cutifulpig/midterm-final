@@ -1,0 +1,100 @@
+*{
+  border-radius: 3px;
+}
+a{
+  text-decoration: none;
+}
+html{
+  border-radius:3px;
+  max-width:1260px;
+  max-height:auto;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: rgb(52, 52, 52);
+}
+body{
+  margin-left: 42.4px;
+}
+.logo{
+  width: 375px;
+  height: 150px;
+  background-color: rgb(255, 255, 210);
+}
+.navbar{
+  background-color: rgb(121, 114, 81);
+  width: 1175px;
+  height: 50px;
+}
+.nav-work-block,.nav-intro-block{
+  height: 42px;
+}
+.navbar li{
+  list-style: none;
+  float: left;
+  margin:8px 200px 15px 0px;
+}
+.navbar li li{
+  padding-right: 30px;
+  float: none;
+  margin-right: 0px;
+}
+.navbar li:hover ul {
+	display: block;
+}
+.navbar li ul{
+  position: absolute;
+  margin-top: 0px;
+  background-color: rgb(255, 255, 210);
+  display: none;
+  z-index: 9999;
+}
+.navbar li ul:hover{
+  display: block;
+}
+.contentarea{
+  background-color: black;
+  height: 1000px;
+  width: 1175px;
+  margin:16px 0px 16px 0px;
+}
+.content-text-1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 50px;
+}
+.content-text-2{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.contentimg{
+  margin-top: -159px;
+}
+#sushi{
+  float: left;
+  margin: 200px 0px 0px 0px;
+}
+#cake{
+  position: absolute;
+  margin: 200px 0px 0px 588px;
+}
+#noodle{
+  margin: 0;
+}
+#chocolate{
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+}
+.b-bar{
+  width: 1175px;
+  height: 60px;
+  background-color: rgb(121, 114, 81);
+}
+
+#copyright{
+  font-size: 18px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 8px;
+}

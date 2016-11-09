@@ -1,0 +1,123 @@
+*{
+  border-radius: 3px;
+}
+a{
+  text-decoration: none;
+}
+html{
+  border-radius:3px;
+  max-width:1260px;
+  max-height:auto;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: rgb(52, 52, 52);
+}
+body{
+  margin-left: 42.4px;
+}
+.logo{
+  width: 375px;
+  height: 150px;
+  background-color: rgb(255, 255, 210);
+}
+.navbar{
+  background-color: rgb(121, 114, 81);
+  width: 1175px;
+  height: 50px;
+}
+.nav-work-block,.nav-intro-block{
+  height: 42px;
+}
+.navbar li{
+  list-style: none;
+  float: left;
+  margin:8px 200px 15px 0px;
+}
+.navbar li li{
+  padding-right: 30px;
+  float: none;
+  margin-right: 0px;
+}
+.navbar li:hover ul {
+	display: block;
+}
+.navbar li ul{
+  position: absolute;
+  margin-top: 0px;
+  background-color: rgb(255, 255, 210);
+  display: none;
+  z-index: 9999;
+}
+.navbar li ul:hover{
+  display: block;
+}
+.contentarea{
+  background-color: black;
+  height: 1000px;
+  width: 1175px;
+  margin:16px 0px 16px 0px;
+}
+.sushi-line1{
+  float: left;
+}
+.sushi-line1-text,.sushi-line2-text{
+  color: white;
+  font-size: 50px;
+}
+.sushi-line1-text li,.sushi-line2-text li{
+  list-style: none;
+  float: left;
+  margin: 20px 0px 0px 80px;
+}
+#sushi-line1-text1{
+  margin-left: 60px;
+}
+#sushi-line1-text2{
+  font-size: 50px;
+  margin-left: 115px;
+}
+#sushi-line1-text3{
+  margin-left: 110px;
+}
+#sushi-line2-text1{
+  margin-left: 60px;
+}
+#sushi-line2-text2{
+  margin-left: 210px;
+}
+#sushi-line2-text3{
+  margin-left: 210px;
+}
+#sushi-2,#sushi-5{
+  position: absolute;
+  margin-left: -4px;
+}
+#sushi-3,#sushi-6{
+margin-left: 388px;
+}
+.sushi-line2{
+  float: left;
+  margin-top: 30px;
+}
+.sushitab {
+  clear: both;
+  margin-left: 580px;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+}
+#sushitab-1 a:visited{
+  color: white;
+}
+.b-bar{
+  width: 1175px;
+  height: 60px;
+  background-color: rgb(121, 114, 81);
+}
+
+#copyright{
+  font-size: 18px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 8px;
+}
